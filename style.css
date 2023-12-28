@@ -85,8 +85,12 @@
     margin-right: auto;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
     .button {
+        width: 66%;
+        height: 66%;
+    }
+    .button:hover{
         width: 66%;
         height: 66%;
     }
