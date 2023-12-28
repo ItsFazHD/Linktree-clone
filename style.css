@@ -1,0 +1,38 @@
+html { 
+    height: 100% 
+}
+.background{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(116,116,116,1) 100%);
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.icon-position{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#github {
+    color: black;
+    font-size: 30px;
+}
+#linkedin {
+    color: black;
+    font-size: 30px;
+}
+.font {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+}
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
