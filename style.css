@@ -18,20 +18,21 @@ html {
     margin-right: auto;
 }
 #github {
-    color: black;
+    color: white;
     font-size: 30px;
+    margin-right: 10px;
 }
 #github:hover {
-    color: black;
-    font-size: 35px;
+    color: white;
+    font-size: 32px;
 }
 #linkedin {
-    color: black;
+    color: white;
     font-size: 30px;
 }
 #linkedin:hover {
-    color: black;
-    font-size: 35px;
+    color: white;
+    font-size: 32px;
 }
 .font {
     font-family: 'Open Sans', sans-serif;
