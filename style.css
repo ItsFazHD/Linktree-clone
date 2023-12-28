@@ -1,9 +1,6 @@
-html { 
-    height: 100% 
-}
 .background{
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(116,116,116,1) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(90, 90, 90) 100%);
 }
 .img{
     display: block;
@@ -19,6 +16,7 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    min-height: 35px;
 }
 #github {
     color: white;
