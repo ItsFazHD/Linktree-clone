@@ -1,97 +1,115 @@
-.background{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(78, 78, 78) 100%);
+.background {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(78, 78, 78) 100%);
 }
-.img{
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+.img {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
-.icon-position{
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 35px;
+.icon-position {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 35px;
 }
 #github {
-    color: white;
-    font-size: 30px;
-    margin-right: 10px;
+  color: white;
+  font-size: 30px;
+  margin-right: 10px;
 }
 #github:hover {
-    color: white;
-    font-size: 32px;
+  color: white;
+  font-size: 32px;
 }
 #linkedin {
-    color: white;
-    font-size: 30px;
+  color: white;
+  font-size: 30px;
+  margin-right: 10px;
 }
 #linkedin:hover {
-    color: white;
-    font-size: 32px;
+  color: white;
+  font-size: 32px;
+}
+#instagram {
+  color: white;
+  font-size: 30px;
+  margin-right: 10px;
+}
+#instagram:hover {
+  color: white;
+  font-size: 32px;
+}
+#tiktok {
+  color: white;
+  font-size: 30px;
+  margin-right: 10px;
+}
+#tiktok:hover {
+  color: white;
+  font-size: 32px;
 }
 .font {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
 }
 .font-button {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    text-align: center;
-    text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
-.button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-    width: 600px;
-    height: 50px;
-    background-color: black;
-    border: none;
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  width: 600px;
+  height: 50px;
+  background-color: black;
+  border: none;
 
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
 }
-.button:hover{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-    width: 600px;
-    height: 50px;
-    background-color: hsl(0, 0%, 65%);
-    
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(0, 0, 0);
-    text-align: center;
+.button:hover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  width: 600px;
+  height: 50px;
+  background-color: hsl(0, 0%, 65%);
+
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
 }
-.button-position{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.button-position {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (width < 600px){
-    .button {
-        width: 340px;
-        height: 50px;
-    }
-    .button:hover {
-        width: 340px;
-        height: 50px;
-    }
+@media screen and (width < 600px) {
+  .button {
+    width: 340px;
+    height: 50px;
+  }
+  .button:hover {
+    width: 340px;
+    height: 50px;
+  }
 }
